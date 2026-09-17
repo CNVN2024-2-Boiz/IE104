@@ -9,6 +9,7 @@
 - User
 - Post
 - Comment
+- Role
 - Report
 
 ## Tính năng
