@@ -17,7 +17,7 @@
           <mxGeometry height="80" width="80" x="320" y="315" as="geometry" />
         </mxCell>
         <mxCell id="C3cqcSvo89lRjoAJekQw-5" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" value="INFRA" vertex="1">
-          <mxGeometry height="80" width="80" x="325" y="560" as="geometry" />
+          <mxGeometry height="80" width="80" x="325" y="545" as="geometry" />
         </mxCell>
         <mxCell id="C3cqcSvo89lRjoAJekQw-11" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="270" width="120" x="870" y="240" as="geometry" />
