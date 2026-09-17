@@ -2,24 +2,36 @@
 
 ![](assets/architecture.drawio.png)
 
-## Danh sách các nghiệp vụ:
+# Nghiệp vụ
 
-### Nghiệp vụ tầng trên:
+## Thực thể
 
-- Kiểm tra jwt
+- User
+- Post
+- Comment
+- Report
 
-### Nghiệp vụ chung:
+## Tính năng
 
--
+### FE
 
-### Nghiệp vụ tầng dưới:
+- Tự động dịch bình luận, bài viết
+- Thêm live view của google map
+- Tự động lấy role / gán role
+- Báo cáo bình luận
 
--
+### BE
 
-## Danh sách các thực thể:
+- Lấy thông tin người dùng
+- Lấy thông tin bài viết
+- Lấy thông tin bình luận
 
-- Bài viết
+### INFRA
 
-- Người dùng
+- Tự động xếp user vào nhóm 'mute' khi chưa hết timeout
+- Áp dụng xóa mềm, sau một khoảng thời gian thì sẽ có cơ chế dọn rác
 
-- Bình luận
+## Nghiệp vụ
+
+- Admin ủy quyền moderator
+- Ban / Mute
