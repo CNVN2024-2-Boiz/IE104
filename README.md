@@ -6,7 +6,7 @@
 
 ### Nghiệp vụ tầng trên:
 
--
+- Kiểm tra jwt
 
 ### Nghiệp vụ chung:
 
