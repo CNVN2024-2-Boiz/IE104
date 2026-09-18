@@ -36,3 +36,17 @@
 
 - Admin ủy quyền moderator
 - Ban / Mute
+
+# Cách khởi chạy project
+
+## Backend
+
+```bash
+cargo run
+```
+
+## Frontend
+
+```bash
+live-server
+```
