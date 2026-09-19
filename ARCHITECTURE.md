@@ -14,7 +14,7 @@
 - Role
   - Ban / Mute
   - Custom
-  - Admin / Moderator
+  - Admin / Moderator: Cho phép nhìn từ dashboard
 
 ## Tính năng
 
@@ -48,8 +48,8 @@
 /user/:id #Danh sách người dùng
 /post/:id #Danh sách post
 /post/tag? #Truy vấn theo tag
-/post/comment/:id #Danh sách các comment trong 1 post
-/post/comment/report/:id #Cho admin với moderator xem
+/post/comment/:comment_id #Danh sách các comment trong 1 post
+post/:post_id/report/:report_id #Cho admin với moderator xem
 ```
 
 # Chức năng chính trong page
@@ -72,7 +72,7 @@
 
 - Giới thiệu thành viên, mục đích xây dựng
 
-- Yêu thầy Shin, cô Linh.
+- Yêu thầy Shin, cô Linh, cô Hoa Đăng sensei ga oishii desu.
 
 ## Profile
 
