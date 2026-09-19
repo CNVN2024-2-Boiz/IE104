@@ -6,12 +6,15 @@
 
 ## Thực thể
 
-- User
-- Post
-- Comment
+- User: Có thể đăng bài, chỉnh sửa, xóa bài viết của bản thân, follow user khác
+- Post: Chèn emoji, lấy link, bình luận
+- Tag (Giới hạn số lượng)
+- Comment: Link, Trang trí chữ, hình ảnh (dưới dạng link), gg live view
+- Report (Giới hạn số lần report trong 1 đơn vị thời gian)
 - Role
-- Report
-- Tag
+  - Ban / Mute
+  - Custom
+  - Admin / Moderator
 
 ## Tính năng
 
@@ -39,16 +42,56 @@
 - Admin ủy quyền moderator
 - Ban / Mute
 
-# Cách khởi chạy project
+# API route (FE - BE)
 
-## Backend
-
-```bash
-cargo run
+```text
+/user/:id #Danh sách người dùng
+/post/:id #Danh sách post
+/post/tag? #Truy vấn theo tag
+/post/comment/:id #Danh sách các comment trong 1 post
+/post/comment/report/:id #Cho admin với moderator xem
 ```
 
-## Frontend
+# Chức năng chính trong page
 
-```bash
-live-server
-```
+## Home
+
+- Thanh tìm kiếm -> truy cập vào trang post/ sau đó thì thực hiện truy vấn theo api route
+
+- Thông báo quan trọng (admin)
+
+- Bài đăng nổi bật
+
+- Bạn đang quan tâm
+
+- Bài đăng mới
+
+- Danh sách các bài đăng
+
+## About
+
+- Giới thiệu thành viên, mục đích xây dựng
+
+- Yêu thầy Shin, cô Linh.
+
+## Profile
+
+- Yêu thích
+
+- Đã lưu
+
+- Thông tin cá nhân
+
+## Post
+
+- Chức năng live-view google map khi bình luận
+
+- Gợi ý ngữ pháp
+
+- Thả emoji, lưu link bài viết
+
+# Hạ tầng cơ sở
+
+- Sử dụng hạ tầng của Nhân (Trong giai đoạn phát triển)
+
+- Sử dụng scheduler khi áp dụng xóa mềm, tự động cập nhật trạng thái khi mute
