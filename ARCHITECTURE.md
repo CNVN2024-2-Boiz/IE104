@@ -11,6 +11,7 @@
 - Comment
 - Role
 - Report
+- Tag
 
 ## Tính năng
 
